@@ -1,0 +1,21 @@
+{
+    "name": "sndk",
+    "version": "1.0.0",
+    "description": "snake bot SDK",
+    "main": "main.js",
+    "repository": "",
+    "author": "Team Solid",
+    "license": "MIT",
+    "dependencies": {
+        "discord.js": "^11.5.1",
+        "ffmpeg": "0.0.4",
+        "ffmpeg-static": "^2.7.0",
+        "long": "^4.0.0",
+        "opusscript": "0.0.7",
+        "prism-media": "^1.1.0",
+        "snekfetch": "^4.0.4",
+        "tweetnacl": "^1.0.1",
+        "ws": "^7.2.0",
+        "ytdl-core": "^1.0.0"
+    }
+}
