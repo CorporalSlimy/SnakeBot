@@ -1,8 +1,14 @@
 {
     "botName":"SnakeBot",
-    "botToken":"XXX",
+    "botToken":"NjA0NzgyMjc5Mzc3ODEzNTM2.XdVaAg.x9kVPjgvsykR0pThuIRtS7EFvSc",
+    "moderatorRole":"$DM",
     "administratorRole":"$DA",
+    "snakeBotDevRole":"$DR",
     "djRole":"$DJ",
     "musicVol":"5",
-    "commandPrefix":"$"
+    "commandPrefix":"$",
+
+    "modLogChannel":"mod-logs",
+    "welcomeChannel":"general",
+    "welcomeMessage":"Welcome {{user}}!"
 }
