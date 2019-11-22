@@ -7,7 +7,9 @@
     "author": "Team Solid",
     "license": "MIT",
     "dependencies": {
+        "better-sqlite3": "^5.4.3",
         "discord.js": "^11.5.1",
+        "enmap": "^5.2.3",
         "ffmpeg": "0.0.4",
         "ffmpeg-static": "^2.7.0",
         "long": "^4.0.0",
