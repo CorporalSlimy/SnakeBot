@@ -165,7 +165,7 @@ client.on(`message`, async (message) => {
 	if (command === `suffix` && message.member.roles.some(role => role.name === adminRole)) {
 		p = messageWords[1]
 		return message.reply(`\nSuffix for ${botName} has been set to "${p}"`)
-	} else {
+	} else if (command === `suffix` && !message.member.roles.some(role => role.name === adminRole)) {
 		message.channel.send(`Insufficient permissons.`)
 	}
 
